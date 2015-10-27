@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-	text-align:center;
+text-align:center;
 }
 
 .title {
@@ -84,4 +84,33 @@ dd {
 
 .footer {
 	background-color:lightgrey;
+}
+
+
+/*MOONS MAIN PAGE*/
+
+.moon {
+	text-align:center;
+	background-color:lightgrey;
+}
+
+/*SMALL SCREEN*/
+
+@media only screen and (min-width: 20em) {
+
+/*Header*/
+
+	h1 {
+		text-align:center;
+	}
+
+	nav li {
+		display: inline-block;
+		width:auto;
+	}
+
+	ul {
+		text-align:center;
+	}
+
 }
